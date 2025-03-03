@@ -1,0 +1,15 @@
+.navbar {
+    background-color: rgb(233, 233, 21);
+    a {
+        color: #000;
+    }
+}
+
+footer {
+    position: fixed;
+    background-color: rgb(233, 233, 21);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
