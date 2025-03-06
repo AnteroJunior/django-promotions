@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block 'content' %}
+<section id="details">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{ promotion_id.image }}" alt="" class="w-100">
+
+            <div id="comments">
+                <p class="fw-bold fs-2">Comentários (0)</p>
+                <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="Seja o primeiro a comentar"></textarea>
+                <button class="btn btn-primary mt-2">Comentar</button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2>{{ promotion_id.title }}</h2>
+            <div class="d-flex justify-content-between">
+                <p class="text-warning">★★★★★ (4.8)</p>
+                <p class="text-decoration-underline">0 comentários</p>
+            </div>
+            <p style="text-align: justify;" class="fs-5">{{ promotion_id.description }}</p>
+            <p class="fw-bold fs-2">R$ {{ promotion_id.price|floatformat:2 }}</p>
+            <button class="btn btn-success">Comprar item</button>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -5,8 +5,28 @@
     }
 }
 
+.card img {
+    border-radius: 20px !important;
+}
+
+#details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    height: 90vh;
+
+    img {
+        border-radius: 20px !important;
+    }
+
+    #comments {
+        padding: 20px 0;
+    }
+}
+
 footer {
-    position: fixed;
+    position: relative;
     background-color: rgb(233, 233, 21);
     bottom: 0;
     width: 100%;
