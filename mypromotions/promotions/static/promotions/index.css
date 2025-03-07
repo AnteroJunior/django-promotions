@@ -12,16 +12,13 @@
 #details {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    justify-content: center;
+    gap: 3rem;
     padding: 20px;
-    height: 90vh;
+    /* height: 80vh; */
 
     img {
         border-radius: 20px !important;
-    }
-
-    #comments {
-        padding: 20px 0;
     }
 }
 
@@ -30,6 +27,7 @@ footer {
     background-color: rgb(233, 233, 21);
     bottom: 0;
     width: 100%;
+    margin-top: 30px;
     text-align: center;
     padding: 10px 0;
 }
